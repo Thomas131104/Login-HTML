@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h2>Login</h2>
+    </header>
+    
+    <main>
+        <div class="whole-page">
+            <form action="/login" target="_blank" method="post">
+                <div class="form">
+                    <div class="label">
+                        <label for="username">Tên tài khoản: </label>
+                    </div>
+
+                    <div class="input">
+                        <input type="text" name="username" id="name" required>
+                    </div>
+                </div>
+
+
+                <div class="form">
+                    <div class="label">
+                        <label for="password">Nhập mật khẩu: </label>
+                    </div>
+
+                    <div class="input">
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                </div>
+
+                <div style="text-align: right; float: right">
+                    <button type="submit">Đăng nhập</button>
+                </div>
+
+                <p>
+                    <b>Chưa có tài khoản?</b>
+                    <br>
+                    Nhấp vào <a href="signin.html"> đây </a> để đăng kí.
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <h2>&copy; by Mus</h2>
+    </footer>
+</body>
+</html>
